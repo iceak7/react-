@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/CSS/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <title>Isak Jensen CV</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo"><h1>Isak Jensen</h1></div>
+
+      <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+
+
+    </header>
+    <nav class="nav">
+      <ul class="menu">
+        <input type="checkbox" name="" id="menu-box" class="menu-box">
+        <li class="menu-item"><a href="/Html/index.html">Om mig</a></li>
+        <li class="menu-item"><a href="/Html/jobb.html">Arbetserfarenhet</a></li>
+        <li class="menu-item"><a href="/Html/utbildningar.html">Utbildningar</a></li>
+        <li><label class="active" for="menu-box">Portfolio</label></li>    
+        <li class="menu-item"><a href="/Html/ovrigt.html">Övrigt</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h1 class="pageTitle">Portfolio</h1>
+      <div class="portfolioMain">
+        <div class="portfolioItem">
+          <div class="portoflioImageContainer">
+            <img src="/Images/fplCentre.PNG" alt="FPL Logo">
+          </div>
+          <div class="portfolioInfo">
+            <h2>FPL Centre</h2>
+            <a class="button" href="#popup1">Mer Info</a>
+          </div>
+        </div>
+
+        <div id="popup1" class="overlay">
+          <div class="popup">
+            <h2>FPL Centre</h2>
+            <a class="close" href="#">&times;</a>
+            <div class="content">
+              FPL Centre är ett projekt jag gjorde när jag läste till gymnasieingenjör. Projektet är byggt på Fantasy Premier Leagues API och ger användaren mer möjligheter med statistik och att bygga egna ligor. Projektet är byggt i Node.JS.
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolioItem">
+          <div class="portoflioImageContainer">
+            <img src="/Images/fox.jpg" alt="FPL Logo">
+          </div>
+          <div class="portfolioInfo">
+            <h2>FoxyBank</h2>
+            <a class="button" href="#popup2">Mer Info</a>
+          </div>
+        </div>
+
+        <div id="popup2" class="overlay">
+          <div class="popup">
+            <h2>Foxy Bank</h2>
+            <a class="close" href="#">&times;</a>
+            <div class="content">
+              Foxy Bank är ett skolprojekt som jag och tre andra i klassen byggde tillsammans under AGila Metoder och OOP-kursen. Projektet är byggt i .NET Core.
+            </div>
+          </div>
+        </div>
+        <div id="like_button_container"></div>
+
+
+
+    
+    </main>
+    <footer><p>Skapad av Isak Jensen</p><span id="easterBackground"></span></footer>
+
+    <script src="/Script/script.js"></script>
+  </body>
+</html>

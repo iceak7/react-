@@ -1,0 +1,12 @@
+[{
+    "workPlace" :"Campus Varberg",
+    "workTitle":".NET Utvecklare",
+    "workLength":"Höst 2021- (Pågående till vår 2023)",
+    "description":"Vi lär oss både backend och frontend i .NET miljön. "
+},
+{
+    "workPlace" :"Kattegattgymnasiet",
+    "workTitle":"Teknik",
+    "workLength":"3 + 1 år 2016-2020",
+    "description":"Jag gick Teknik-linjen på Kattegattgymnasiet med inriktning IT i 3 år. Jag valde sedan att gå ett år till och bli Gymnasieingenjör med även där inriktningen IT. Vi höll på en del med programmering i C#, Webbserverprogrammering med Node.JS och en del Webbutveckling."
+}]
